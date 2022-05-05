@@ -63,6 +63,7 @@ html {
 
 .dalemnya_halaman {
   position: absolute;
+  overflow: scroll;
   top: 0;
   left: 0;
   width: 100%;
@@ -106,6 +107,7 @@ section.halaman1 {
   color: #3b1b22;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
+  
 }
 
 section.halaman2 {
@@ -198,8 +200,6 @@ section.after {
   opacity: 0.8;
 }
 
-
-
 .judul_halaman {
   color: white;
   font-weight: 500;
@@ -209,6 +209,10 @@ section.after {
   margin: 0;
   line-height: 70px;
   -webkit-user-select: halaman1;
+  
+}
+.untukjudulhalaman {
+  
 }
 
 .isijudul {
